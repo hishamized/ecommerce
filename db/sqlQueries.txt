@@ -1,0 +1,8 @@
+CREATE TABLE `ecommerce`.`users`
+(`user_id` INT(10) NOT NULL AUTO_INCREMENT ,
+ `fullName` VARCHAR(255) NOT NULL ,
+  `userName` VARCHAR(255) NOT NULL ,
+   `email` VARCHAR(255) NOT NULL ,
+    `password` VARCHAR(255) NOT NULL ,
+     `cpassword` VARCHAR(255) NOT NULL ,
+      PRIMARY KEY (`user_id`)) ENGINE = InnoDB;
